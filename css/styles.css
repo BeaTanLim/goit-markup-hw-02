@@ -147,7 +147,7 @@ li {
 /*SECTION 3*/
 
 .bg-section-3{
-  background: var(--ocean, #404BBF);
+  background: var(--white, #FFF);
   width: 1440px;
   height: 500px;
   display: flex;
