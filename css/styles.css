@@ -23,7 +23,7 @@ li {
 
 /*WEBSTUDIO LOGO*/
 
-.link-logo{
+.logo-link{
   text-decoration: none;
   font-size: 18px;
   font-family: "Raleway",sans-serif;
@@ -32,16 +32,16 @@ li {
   letter-spacing: 0.54;
 }
 
-.web-logo{
+.logo{
   color: var(--iriscolor)
 }
 
-.studio-logo{
+.studio{
   color: var(--navyblue)
 }
 
 /*MENU ITEMS*/
-.navbar .pages {
+.nav-menu .page {
   font-size: 16px;
   font-weight: 500;
   color: var(--navcolor);
@@ -50,15 +50,15 @@ li {
   letter-spacing: 0.32px;
 }
 
-.navbar .pages:hover,
-.navbar .pages:focus,
-.contact-info .info:hover,
-.contact-info .info:focus{
+.nav-menu .pages:hover,
+.nav-menu .pages:focus,
+.nav-menu .item:hover,
+.nav-menu ..item:focus{
   color: var(--oceancolor);
   text-decoration: underline
 }
 
-.contact-info .info{
+.nav-menu .item{
   color: var(--contactcolor);
   text-decoration: none;
   font-size: 16px;
@@ -68,7 +68,7 @@ li {
 }
 
 /*MAIN LANDING PAGE*/
-.bg-section-1{
+.bg-hero{
   background-color: var(--navyblue);
   width: 1440px;
   height: 600px;
@@ -77,17 +77,14 @@ li {
   align-items: center;
 }
 
-.section-1 .content{
-  text-align: center;
-}
-
-.section-1 .h1-title{
+.hero .hero-title{
   color: var(--white, #FFF);
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
+  justify-content: center;
 }
 
 /*MAIN LANDING PAGE BUTTON*/
@@ -115,28 +112,28 @@ li {
 
 /*SECTION 2*/
 
-.bg-section-2{
+.section{
   background-color: white;
   width: 1440px;
-  height: 300px;
+  height: 430px;
   display: flex;
   align-items: center;
 }
 
-.section-2 ul{
+.section ul{
   display: flex;
   width: 1440px;
   gap: 24px;
   justify-content: center;
 }
-.section-2-title{
+.title{
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
 }
 
-.section-2-description{
+.description{
   color: var(--slate, #434455);
   font-size: 16px;
   font-weight: 400;
@@ -154,11 +151,13 @@ li {
   align-items: center;
 }
 
-.section-3-header{
-  text-align: center;
-}
 
-.section-3-title{
+/*Omg tinanggal itong part sa first revision*/
+
+
+.section-title{
+  display: flex;
+  justify-content: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -166,8 +165,9 @@ li {
   text-transform: capitalize;
 }
 
-.image-list-services{
+.what-we-do{
   display: flex;
+  justify-content: center;
 }
 
 /*SECTION 4*/
@@ -175,13 +175,6 @@ li {
   background-color: #F4F4FD;
   width: 1440px;
   height: 500px;
-}
-.section-4-title{
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
 }
 
 .name{
@@ -207,30 +200,21 @@ li {
 
 /*FOOTER*/
 
-.footer{
+footer{
   background-color: var(--navyblue);
   width: 1440px;
   height: 300px;
 }
 
-.link-logo-footer{
-  text-decoration: none;
-  font-size: 18px;
-  font-family: "Raleway",sans-serif;
-  line-height: 21px;
-  font-weight: 800;
-  letter-spacing: 0.54;
-}
-
-.web-logo-footer{
+.page-footer .logo{
   color: var(--iriscolor)
 }
 
-.studio-logo-footer{
+.page-footer .studio-footer{
   color: var(--cloud, #F4F4FD);
 }
 
-.endnotes-footer{
+.footer-description{
   color: var(--cloud, #F4F4FD);
   font-size: 16px;
   font-style: normal;
@@ -246,13 +230,13 @@ li {
 /**/
 
 /*PORTFOLIO BUTTONS*/
-.portfolio-button:hover,
-.portfolio-button:focus{
+.filters .button:hover,
+.filters .button:focus{
   background-color: var(--oceancolor);
   color: var(--white, #FFF);
 }
 
-.portfolio-button{
+.filters .button{
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
@@ -266,3 +250,24 @@ li {
   letter-spacing: 0.64px; 
 }
 
+.projects .project{
+  text-decoration: none;
+}
+
+.projects .name{
+  color: var(--navyblue, #2E2F42);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.projects .type{
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
