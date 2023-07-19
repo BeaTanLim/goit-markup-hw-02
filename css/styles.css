@@ -110,18 +110,13 @@ body{
 .button-primary:focus {
   background-color: var(--oceancolor);
 }
+
 /*SECTION 2*/
-
-
 /*SECTION 3*/
 
 .bg-team{
   background-color: var(--cloud);
 }
-
-
-/*Omg tinanggal itong part sa first revision*/
-
 
 .section-title{
   font-size: 36px;
@@ -130,10 +125,7 @@ body{
   line-height: 1.17;
 }
 
-
-
 /*SECTION 4*/
-
 
 .team .name{
   color: var(--navyblue);
@@ -141,7 +133,6 @@ body{
   font-weight: 500;
   text-align: center;
   letter-spacing: 0.02em;
-
 }
 
 .team .position{
@@ -151,14 +142,11 @@ body{
   text-align: center;
 }
 
-
 /*FOOTER*/
 
 .page-footer .bg-footer{
   background-color: var(--navyblue);
 }
-
-
 
 .page-footer .studio-footer{
   color: var(--cloud);
@@ -207,8 +195,6 @@ body{
   color: var(--white, #FFF);
 }
 
-
-
 .projects .project{
   text-decoration: none;
 }
@@ -225,5 +211,4 @@ body{
   color: var(--slate);
   font-size: 16px;
   font-weight: 400;
-
 }
