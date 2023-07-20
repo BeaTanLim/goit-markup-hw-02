@@ -144,7 +144,7 @@ body{
 
 /*FOOTER*/
 
-.page-footer .bg-footer{
+.page-footer.bg-footer{
   background-color: var(--navyblue);
 }
 
